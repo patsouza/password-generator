@@ -1,0 +1,21 @@
+# Node
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ambiente
+.env
+
+# Build / compilados
+dist/
+build/
+
+# Sass (opcional - depende da estratégia)
+css/
