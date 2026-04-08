@@ -4,9 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>Password Generator</title>
+  <title>Gerador de Senhas</title>
 </head>
 <body>
-  
+  <h1>Gerador de Senhas</h1>
+  <p id="password"></p>
+
+  <label for="password-legth">Quantidade Caracteres <span id="password-legth-value"></span></label>
+  <input type="range" id="password-legth" min="6" max="12">
+
+  <button type="button">Gerar Senha ➜</button>
 </body>
 </html>
