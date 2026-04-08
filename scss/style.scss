@@ -29,7 +29,7 @@ main {
     padding: 0.5rem;
     font-size: 16px;
     font-weight: 500;
-    text-align: left;
+
   }
   #content {
     display: flex;
@@ -44,6 +44,12 @@ main {
       color: $light;
       border: none;
       padding: 6px;
+      font-family: $font;
+      letter-spacing: 2px;
+    }
+    #button-generate:hover {
+      background-color: $light;
+      color: $grey;
     }
   }
 }

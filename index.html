@@ -12,6 +12,7 @@
   <title>Gerador de Senhas</title>
 </head>
 <body>
+  <script src="script.js"></script>
   <main>
     <h1>Gerador de Senhas</h1>
   <p id="password">Essa é sua senha</p>
@@ -19,7 +20,7 @@
     <label for="password-legth">Quantidade Caracteres <span id="password-legth-value">10</span></label>
   <input type="range" id="password-legth" min="6" max="12">
 
-  <button type="button" id="button-generate">Gerar Senha ➜</button>
+  <button type="button" id="button-generate" onclick="generatePassword()">GERAR ➜</button>
   </div>
   
   </main>
