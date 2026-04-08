@@ -4,15 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/scss/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
   <title>Gerador de Senhas</title>
 </head>
 <body>
-  <h1>Gerador de Senhas</h1>
-  <p id="password"></p>
-
+  <main>
+    <h1>Gerador de Senhas</h1>
+  <p id="password">Essa é sua senha</p>
   <label for="password-legth">Quantidade Caracteres <span id="password-legth-value"></span></label>
   <input type="range" id="password-legth" min="6" max="12">
 
   <button type="button">Gerar Senha ➜</button>
+  </main>
 </body>
 </html>

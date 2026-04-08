@@ -1,0 +1,28 @@
+$light: #EEE9E9;
+$green: #899752;
+$font: "Roboto Mono", monospace;
+
+body {
+  background-color: $light;
+  font-family: $font;
+}
+
+main {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: $light;
+  h1 {
+    font-size: 12px;
+    color: $green;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+  #password {
+    background-color: $green;
+    padding: 0.5rem;
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
