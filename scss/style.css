@@ -1,6 +1,10 @@
 body {
-  background-color: #EEE9E9;
+  background-color: #341405;
   font-family: "Roboto Mono", monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 main {
@@ -8,17 +12,33 @@ main {
   display: flex;
   flex-direction: column;
   text-align: center;
-  color: #EEE9E9;
+  color: #341405;
 }
 main h1 {
   font-size: 12px;
-  color: #899752;
+  color: #b34212;
   font-weight: 400;
   letter-spacing: 1px;
 }
 main #password {
-  background-color: #899752;
+  background-color: #b34212;
   padding: 0.5rem;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
+  text-align: left;
+}
+main #content {
+  display: flex;
+  flex-direction: column;
+  background-color: #b34212;
+  padding: 1rem;
+}
+main #content label {
+  font-size: 10px;
+}
+main #content #button-generate {
+  background-color: #d46419;
+  color: #341405;
+  border: none;
+  padding: 6px;
 }/*# sourceMappingURL=style.css.map */

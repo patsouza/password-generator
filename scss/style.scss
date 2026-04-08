@@ -1,10 +1,15 @@
-$light: #EEE9E9;
-$green: #899752;
+$light: #341405;
+$grey: #b34212;
+$light-green: #d46419;
 $font: "Roboto Mono", monospace;
 
 body {
   background-color: $light;
   font-family: $font;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 main {
@@ -15,14 +20,30 @@ main {
   color: $light;
   h1 {
     font-size: 12px;
-    color: $green;
+    color: $grey;
     font-weight: 400;
     letter-spacing: 1px;
   }
   #password {
-    background-color: $green;
+    background-color: $grey;
     padding: 0.5rem;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
+    text-align: left;
+  }
+  #content {
+    display: flex;
+    flex-direction: column;
+    background-color: $grey;
+    padding: 1rem;
+    label {
+      font-size: 10px;
+    }
+    #button-generate {
+      background-color: $light-green;
+      color: $light;
+      border: none;
+      padding: 6px;
+    }
   }
 }

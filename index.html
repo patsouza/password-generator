@@ -15,10 +15,13 @@
   <main>
     <h1>Gerador de Senhas</h1>
   <p id="password">Essa é sua senha</p>
-  <label for="password-legth">Quantidade Caracteres <span id="password-legth-value"></span></label>
+  <div id="content">
+    <label for="password-legth">Quantidade Caracteres <span id="password-legth-value">10</span></label>
   <input type="range" id="password-legth" min="6" max="12">
 
-  <button type="button">Gerar Senha ➜</button>
+  <button type="button" id="button-generate">Gerar Senha ➜</button>
+  </div>
+  
   </main>
 </body>
 </html>
